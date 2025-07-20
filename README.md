@@ -1,56 +1,38 @@
-# 💸 FinTrack – AI-Powered Finance Platform
-
-A fully functional **Full Stack AI Finance Platform** that helps users track monthly income & expenses, get intelligent alerts, visualize financial trends via charts, and manage multiple accounts with ease.
-
-> 🚀 Built with modern technologies like React 19, Next.js 15, Tailwind CSS, Supabase, Prisma, Clerk, Inngest, Arcjet, and Shadcn UI.
 
 ---
 
-## 🧠 Features
+### ✅ 3. **FinTrack – README.md**
 
-- 📊 **Dashboard with Real-Time Charts**  
-  Track income vs. expenses with beautiful graphs (powered by Recharts or equivalent)
+```markdown
+# 💸 FinTrack – Personal Finance App
 
-- 🔐 **User Authentication**  
-  Seamless login/register using [Clerk](https://clerk.com)
+FinTrack is a modern full-stack personal finance manager that helps users track expenses, income, and manage multiple accounts. It supports recurring transactions and offers AI-powered bill scanning and visual insights.
 
-- 📦 **Backend with Supabase & Prisma**  
-  All user data, transactions, and accounts stored securely
+## 🔗 Live App
+[https://fin-track-roan.vercel.app/dashboard](https://fin-track-roan.vercel.app/dashboard)
 
-- ✉️ **Email Alerts**  
-  Auto email notifications for monthly summary, overspending, or irregular activity
+## 🚀 Tech Stack
+- Next.js 15
+- React 19
+- Tailwind CSS
+- Shadcn UI
+- Supabase (Database)
+- Prisma (ORM)
+- Clerk (Authentication)
+- Inngest (Background jobs)
+- Arcjet (Security)
+- Gemini API (AI analysis)
 
-- 🧾 **Bill Scanning with Gemini API**  
-  Upload and scan bills using Google's Gemini for AI-driven extraction
+## 🔧 Features
+- Track expenses and income
+- Add recurring transactions
+- Manage multiple accounts
+- View monthly trends and charts
+- AI-based bill scanning with Gemini API
+- Secure login with Clerk
+- Deployed on Vercel
 
-- 🔁 **Recurring Transactions Support**  
-  Add monthly subscriptions, rent, salary, etc. with auto-reminders
-
-- 🏦 **Multiple Account Support**  
-  Track finances separately across different bank accounts
-
-- ⚙️ **Background Jobs with Inngest**  
-  Schedule notifications, summaries, and cleanup tasks asynchronously
-
-- 🔐 **Security with Arcjet**  
-  Rate limiting and threat detection for a secure experience
-
-- 🎨 **Modern UI with Shadcn + Tailwind CSS**  
-  Clean, responsive and themeable design
-
----
-
-## 🛠️ Tech Stack
-
-| Tech         | Purpose                             |
-|--------------|--------------------------------------|
-| React 19     | Frontend framework                   |
-| Next.js 15   | Full-stack rendering & API routes    |
-| Tailwind CSS | Styling                              |
-| Supabase     | Database + Auth + Storage            |
-| Prisma       | ORM to connect with Supabase         |
-| Clerk        | Authentication & user management     |
-| Inngest      | Background tasks, workflows          |
-| Gemini API   | AI-powered document processing       |
-| Arcjet       | Rate limiting & security             |
-| Shadcn UI    | Beautiful component library          |
+## 📦 Installation
+```bash
+npm install
+npm run dev
