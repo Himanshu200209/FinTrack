@@ -8,8 +8,9 @@
 
 FinTrack is a modern full-stack personal finance manager that helps users track expenses, income, and manage multiple accounts. It supports recurring transactions and offers AI-powered bill scanning and visual insights.
 
-## 🔗 Live App
-[https://fin-track-roan.vercel.app](https://fin-track-roan.vercel.app/dashboard)
+## 🔗 Live Demo
+[https://fin-track-roan.vercel.app/dashboard](https://fin-track-roan.vercel.app/dashboard)
+
 
 ## 🚀 Tech Stack
 - Next.js 15
