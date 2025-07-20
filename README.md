@@ -1,7 +1,7 @@
 
 ---
 
-### ✅ 3. **FinTrack – README.md**
+### ✅ **FinTrack – README.md**
 
 ```markdown
 # 💸 FinTrack – Personal Finance App
